@@ -1,0 +1,59 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+.hero-image {background-color: var(--navy-blue);}
+a {
+    text-decoration: none;
+}
+ul {list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo-web {color: var(--iris); font-weight: bold; text-transform: uppercase;}
+.logo-studio {color: var(--navy-blue); font-weight: bold; text-transform: uppercase;}
+
+.page-nav a {font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);}
+
+.page-nav a:hover {color: var(--iris);}
+address a{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+
+/* line-height: 24px; */
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+h1 {font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+
+    /* line-height: 60px; */
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
