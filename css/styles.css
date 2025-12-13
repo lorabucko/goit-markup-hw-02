@@ -17,9 +17,12 @@
     --second-family: "Raleway", sans-serif;
 }
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--slate);
     background-color: var(--white);
+}
+.logo-web, .logo-studio {
+    font-family: "Raleway", sans-serif;
 }
 h1, h2, h3 {font-family: var(--font-family);} 
 
